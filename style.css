@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;  
+    background-color: black;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color:  white;
+    padding: 30px;
+}
+.list{
+    width: 30%;
+    height: 690px;
+    background-color: yellow;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.body{
+    width: 70%;
+    height: 690px;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color:  white;
+    padding: 30px;
+    font-size: 30px;
+}
+.nigga{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+}
+p{
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color:  white;
+    margin: 15px;
+}
+.articles{
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center; 
+}
+img{
+    width:55%;
+    height: 55%;
+}
